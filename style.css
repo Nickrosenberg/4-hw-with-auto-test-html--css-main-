@@ -30,7 +30,7 @@ header span {
 
 .main-section {
     background-color: #fafaff;
-    padding: 60px 0;
+    padding: 100px 0;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -39,6 +39,7 @@ header span {
 .main-section .wrapper {
     display: flex;
     align-items: center;
+    gap: 60px;
 }
 
 .text-wrapper {
@@ -143,7 +144,7 @@ select:hover,
 form {
     margin-bottom: 40px;
     flex-direction: column;
-    gap: 20px;/* 📍 Свойства для расположения элементов (инпута и кнопки) и отступа между ними */
+    gap: 10px;/* 📍 Свойства для расположения элементов (инпута и кнопки) и отступа между ними */
 }
 
 .text-field {
@@ -218,7 +219,7 @@ footer {
     }
 
     .main-image {
-        max-width: 50%;/* 📍 Максимальная ширина для главного изображения в % */
+        max-width: 100%;/* 📍 Максимальная ширина для главного изображения в % */
     }
 
     .text-wrapper {
